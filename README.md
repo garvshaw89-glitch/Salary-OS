@@ -533,7 +533,7 @@ Testing covers important financial and application logic.
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/salaryos.git
+git clone (https://github.com/garvshaw89-glitch/Salary-OS)
 ```
 
 ## 2. Navigate to the project
@@ -782,32 +782,3 @@ If you find SalaryOS useful or interesting:
 ## SalaryOS
 
 ### 💰 Get Paid. Plan Smart. Spend With Confidence.
-
-````
-
-### GitHub repository topics
-
-Add these to your repository:
-
-```text
-salaryos
-personal-finance
-finance-app
-budgeting
-expense-tracker
-financial-planning
-fintech
-nextjs
-react
-typescript
-postgresql
-tailwindcss
-full-stack
-saas
-financial-goals
-budget-management
-purchase-planner
-responsive-design
-````
-
-This README positions **SalaryOS as a real fintech-style SaaS portfolio project**, while making it clear that it's a planning tool rather than a regulated financial-advice product.
