@@ -1,0 +1,6 @@
+{
+  "name": "SalaryOS",
+  "description": "Get Paid. Plan Smart. Spend With Confidence. Professional personal finance web application for salary planning, purchase affordability analysis, and goal tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

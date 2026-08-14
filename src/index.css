@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #020617; /* slate-950 */
+    color: #e2e8f0; /* slate-200 */
+    overflow-x: hidden;
+  }
+}
+
+/* Background grid matrix texture matching High Density theme */
+.bg-command-grid {
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Custom utilities for number mono display */
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+/* High density thin table borders */
+.table-dense th {
+  padding: 0.375rem 0.75rem;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  border-bottom: 1px solid #1e293b;
+  background-color: rgba(15, 23, 42, 0.6);
+}
+
+.table-dense td {
+  padding: 0.45rem 0.75rem;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(30, 41, 59, 0.6);
+}
